@@ -13,6 +13,7 @@ public class Ejercicio6 {
 		System.out.println("Dime el apellido");
 		apellido = leer.nextLine();
 
+		//la primera letra del nombre mayusculas
 		for (int i = 0; i < nombre.length(); i++) {
 			aux1 = nombre.substring(i, 1);
 			aux1 = aux1.toUpperCase();
@@ -20,6 +21,7 @@ public class Ejercicio6 {
 			break;
 		}
 
+		//las demas letras del nombre minusculas
 		for (int i = 1; i < nombre.length(); i++) {
 			aux = nombre.substring(i, i + 1);
 			System.out.print(aux);
